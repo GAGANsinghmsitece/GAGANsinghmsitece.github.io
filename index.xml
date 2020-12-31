@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gagan Singh</title>
-    <link>http://GAGANsinghmsitece.github.io/</link>
+    <link>https://gagansinghmsitece.github.io/</link>
     <description>Recent content on Gagan Singh</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://GAGANsinghmsitece.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://gagansinghmsitece.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
