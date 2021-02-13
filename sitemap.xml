@@ -3,23 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gagansinghmsitece.github.io/categories/</loc>
+    <loc>https://gagansinghmsitece.github.io/tags/competitive-programming/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gagansinghmsitece.github.io/posts/competitive-programming/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gagansinghmsitece.github.io/tags/data-structures/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gagansinghmsitece.github.io/tags/graphs/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gagansinghmsitece.github.io/tags/minimum-spanning-tree/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gagansinghmsitece.github.io/posts/competitive-programming/minimumspaningtree/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gagansinghmsitece.github.io/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gagansinghmsitece.github.io/posts/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gagansinghmsitece.github.io/tags/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gagansinghmsitece.github.io/categories/</loc>
   </url>
   
 </urlset>

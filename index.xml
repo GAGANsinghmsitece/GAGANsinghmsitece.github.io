@@ -5,6 +5,16 @@
     <link>https://gagansinghmsitece.github.io/</link>
     <description>Recent content in Posts on Gagan Singh</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://gagansinghmsitece.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minimum Spanning Tree</title>
+      <link>https://gagansinghmsitece.github.io/posts/competitive-programming/minimumspaningtree/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/posts/competitive-programming/minimumspaningtree/</guid>
+      <description>A introduction on Minimum Spanning Tree</description>
+    </item>
+    
   </channel>
 </rss>
