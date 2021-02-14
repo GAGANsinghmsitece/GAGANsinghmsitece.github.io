@@ -28,8 +28,8 @@
 <meta property="og:description" content="A introduction on Minimum Spanning Tree and Kruskal algorithm" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://gagansinghmsitece.github.io/posts/competitive-programming/minimumspaningtree/" />
-<meta property="article:published_time" content="2021-01-20T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-01-20T00:00:00+00:00" />
+<meta property="article:published_time" content="2021-02-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-13T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Minimum Spanning Tree"/>
 <meta name="twitter:description" content="A introduction on Minimum Spanning Tree and Kruskal algorithm"/>
@@ -47,8 +47,8 @@
   "articleBody": "Introduction Suppose we have n cities and there are m paths(or highways) interconnecting them. Now we know that n cities can be connected using n-1 paths and we also wish to use paths with minimum possible distance between them.\nNow, we can model the same problem using graphs of v vertices and e edges.let T be a acyclic subset of e such that it connects vertices and total weight of all edges is minimum. This T is what we call a “Minimum Spanning Tree”. T is called Tree not graph as it do not have any cyclic component, thus, T is of the form of a tree.\nHow to generate MSP We need to find a edge of minimum weight connecting two parts(which can be two edges too) of a graph.Thus we need to find edge with minimum weight which is also called light edge.\nConsider a graph as shown below,\nThe graphs consist of five vertices which are connected with a number of edges. Now, Suppose we draw a imaginary cut on the graph which separates it into two parts.\nThere are 3 edges which connect A and E vertice to rest of the graph of weight 11,5 and 10. Since edge joining A and D of weight 5 is minimum, we can use this vertice to connect both parts of network. We can also say that edge AD is light edge.\nAt this stage we can form a general algorithm to develop a minimum spanning tree.\nlet A be ∅ while A does not form a spanning tree do find a minimum edge (u,v) which is safe for A add this edge to A return A  Algorithms used to generate MSP Logically, there are two ways to generate MSP\n  Think graph as a forest of trees(which only have root nodes at the beginning) and try to check if there’s a link between two forest. If there is multiple links choose one with minimum weight. This method is also known as “Kruskal’s algorithm”.\n  Another way could be used to select a node first and check its connecting node and connect it with neighbouring node of least weight and move to that node and keep doing it until you connect all nodes of trees. This method is called “Prim’s algorithm”.\n  ",
   "wordCount" : "380",
   "inLanguage": "en",
-  "datePublished": "2021-01-20T00:00:00Z",
-  "dateModified": "2021-01-20T00:00:00Z",
+  "datePublished": "2021-02-13T00:00:00Z",
+  "dateModified": "2021-02-13T00:00:00Z",
   "author":{
     "@type": "Person",
     "name": "Gagan Singh"
@@ -135,7 +135,7 @@
     </h1>
     <div class="post-meta">
 
-January 20, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Gagan Singh
+February 13, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Gagan Singh
 
     </div>
   </header> 
@@ -147,9 +147,9 @@ January 20, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Gagan Singh
 <h2 id="how-to-generate-msp">How to generate MSP<a hidden class="anchor" aria-hidden="true" href="#how-to-generate-msp">#</a></h2>
 <p>We need to find a edge of minimum weight connecting two parts(which can be two edges too) of a graph.Thus we need to find edge with minimum weight which is also called light edge.</p>
 <p>Consider a graph as shown below,</p>
-<p><img src="/Cp/MinimumSpanningTrees/Graphs.png" alt="example graph"></p>
+<p><img src="/images/Cp/MinimumSpanningTrees/Graphs.png" alt="example graph"></p>
 <p>The graphs consist of five vertices which are connected with a number of edges. Now, Suppose we draw a imaginary cut on the graph which separates it into two parts.</p>
-<p><img src="/Cp/MinimumSpanningTrees/1.png" alt="graph with a imaginary cut"></p>
+<p><img src="/images/Cp/MinimumSpanningTrees/1.png" alt="graph with a imaginary cut"></p>
 <p>There are 3 edges which connect A and E vertice to rest of the graph of weight 11,5 and 10. Since edge joining A and D of weight 5 is minimum, we can use this vertice to connect both parts of network. We can also say that edge AD is light edge.</p>
 <p>At this stage we can form a general algorithm to develop a minimum spanning tree.</p>
 <pre><code>let A be ∅ 
