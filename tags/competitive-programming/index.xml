@@ -6,7 +6,16 @@
     <description>Recent content in Competitive Programming on Gagan Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/tags/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/tags/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prim&#39;s algorithm</title>
+      <link>https://gagansinghmsitece.github.io/posts/competitive-programming/prims_algorithm/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/posts/competitive-programming/prims_algorithm/</guid>
+      <description>A introduction on Prim&amp;rsquo;s algorithm</description>
+    </item>
+    
     <item>
       <title>Kruskal&#39;s algorithm</title>
       <link>https://gagansinghmsitece.github.io/posts/competitive-programming/kruskal/</link>

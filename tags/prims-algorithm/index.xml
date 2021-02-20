@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prim&#39;s algorithm on Gagan Singh</title>
+    <link>https://gagansinghmsitece.github.io/tags/prims-algorithm/</link>
+    <description>Recent content in Prim&#39;s algorithm on Gagan Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/tags/prims-algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prim&#39;s algorithm</title>
+      <link>https://gagansinghmsitece.github.io/posts/competitive-programming/prims_algorithm/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/posts/competitive-programming/prims_algorithm/</guid>
+      <description>A introduction on Prim&amp;rsquo;s algorithm</description>
+    </item>
+    
+  </channel>
+</rss>
