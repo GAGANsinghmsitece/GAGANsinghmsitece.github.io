@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Gagan Singh</title>
+    <link>https://gagansinghmsitece.github.io/posts/tutorials/</link>
+    <description>Recent content in Tutorial on Gagan Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/posts/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to show your cordova application in android app drawer?</title>
+      <link>https://gagansinghmsitece.github.io/posts/tutorials/how_to_make_your_cordova_app_appear_in_android_app_drawer/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/posts/tutorials/how_to_make_your_cordova_app_appear_in_android_app_drawer/</guid>
+      <description>A introduction to intents and its implementation in cordova</description>
+    </item>
+    
+  </channel>
+</rss>
