@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Gagan Singh</title>
+    <link>https://gagansinghmsitece.github.io/posts/projects/</link>
+    <description>Recent content in Projects on Gagan Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/posts/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>S Pdf Reader - Ad-free Pdf Viewer</title>
+      <link>https://gagansinghmsitece.github.io/posts/projects/s-pdf-reader/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/posts/projects/s-pdf-reader/</guid>
+      <description>I created a Pdf Reader app for android this month</description>
+    </item>
+    
+  </channel>
+</rss>
