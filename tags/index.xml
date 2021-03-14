@@ -6,13 +6,31 @@
     <description>Recent content in Tags on Gagan Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android</title>
       <link>https://gagansinghmsitece.github.io/tags/android/</link>
-      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://gagansinghmsitece.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter</title>
+      <link>https://gagansinghmsitece.github.io/tags/flutter/</link>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>https://gagansinghmsitece.github.io/tags/tutorials/</link>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/tags/tutorials/</guid>
       <description></description>
     </item>
     
@@ -31,15 +49,6 @@
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://gagansinghmsitece.github.io/tags/cordova/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorials</title>
-      <link>https://gagansinghmsitece.github.io/tags/tutorials/</link>
-      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gagansinghmsitece.github.io/tags/tutorials/</guid>
       <description></description>
     </item>
     
