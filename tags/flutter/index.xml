@@ -6,7 +6,25 @@
     <description>Recent content in Flutter on Gagan Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meals App</title>
+      <link>https://gagansinghmsitece.github.io/posts/projects/meals_app_flutter/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/posts/projects/meals_app_flutter/</guid>
+      <description>While learning navigation in flutter, i created this app.</description>
+    </item>
+    
+    <item>
+      <title>Personal Expense App</title>
+      <link>https://gagansinghmsitece.github.io/posts/projects/personal_expense_flutter/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/posts/projects/personal_expense_flutter/</guid>
+      <description>While learning ui in flutter, i created this app.</description>
+    </item>
+    
     <item>
       <title>Make Flutter Routes Like a Pro</title>
       <link>https://gagansinghmsitece.github.io/posts/tutorials/make_flutter_routes_like_a_pro/</link>
