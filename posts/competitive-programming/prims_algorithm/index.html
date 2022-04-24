@@ -11,7 +11,7 @@
 <meta name="description" content="A introduction on Prim&#39;s algorithm to find Minimum Spanning Trees and its implementation">
 <meta name="author" content="Gagan Singh">
 <link rel="canonical" href="https://gagansinghmsitece.github.io/posts/competitive-programming/prims_algorithm/" />
-<link href="https://gagansinghmsitece.github.io/assets/css/stylesheet.min.57da1366bfd884dc6005936744c35f3a73b7ae47a47b1c3d256a80157ab8a137.css" integrity="sha256-V9oTZr/YhNxgBZNnRMNfOnO3rkekexw9JWqAFXq4oTc=" rel="preload stylesheet"
+<link href="https://gagansinghmsitece.github.io/assets/css/stylesheet.min.6f0aa8232c653ed30385dc4ab099756bc3d2a246b720d2223a3c002bbf3d3de5.css" integrity="sha256-bwqoIyxlPtMDhdxKsJl1a8PSoka3INIiOjwAK789PeU=" rel="preload stylesheet"
     as="style">
 
 <link rel="icon" href="https://gagansinghmsitece.github.io/favicon.ico">
@@ -21,8 +21,7 @@
 <link rel="mask-icon" href="https://gagansinghmsitece.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.80.0" />
-
+<meta name="generator" content="Hugo 0.92.1" />
 
 
 <script type="application/javascript">
@@ -206,92 +205,92 @@ using namespace std;
 #define NIL -2
 
 class Graph{
-    int v;
-    list&lt;pair&lt;int,int&gt;&gt; *adj;
-    int minKey(int key[],bool isVisited[]);
-    void printMST(int pi[],int key[]);
+	int v;
+	list&lt;pair&lt;int,int&gt;&gt; *adj;
+	int minKey(int key[],bool isVisited[]);
+	void printMST(int pi[],int key[]);
 public:
-    Graph(int vertices);
-    void addEdge(int src,int dest,int weight);
-    void Prim(int r);
+	Graph(int vertices);
+	void addEdge(int src,int dest,int weight);
+	void Prim(int r);
 };
 
 Graph::Graph(int vertices){
-    v=vertices;
-    adj=new list&lt;pair&lt;int,int&gt;&gt;[v];
+	v=vertices;
+	adj=new list&lt;pair&lt;int,int&gt;&gt;[v];
 }
 
 void Graph::printMST(int pi[],int key[]){
-    cout&lt;&lt;&quot;Edge \tWeight\n&quot;;  
-    for (int i = 1; i &lt; v; i++)  
-        cout&lt;&lt;pi[i]&lt;&lt;&quot; - &quot;&lt;&lt;i&lt;&lt;&quot; \t&quot;&lt;&lt;key[i]&lt;&lt;&quot; \n&quot;;
+	cout&lt;&lt;&quot;Edge \tWeight\n&quot;;  
+	for (int i = 1; i &lt; v; i++)  
+    	cout&lt;&lt;pi[i]&lt;&lt;&quot; - &quot;&lt;&lt;i&lt;&lt;&quot; \t&quot;&lt;&lt;key[i]&lt;&lt;&quot; \n&quot;;
 }
 
 void Graph::addEdge(int src,int dest,int weight){
-    adj[src].push_back(make_pair(dest,weight));
-    adj[dest].push_back(make_pair(src,weight));
+	adj[src].push_back(make_pair(dest,weight));
+	adj[dest].push_back(make_pair(src,weight));
 }
 
 int Graph::minKey(int key[],bool isVisited[]){
-    int min=INF,min_ver=NIL;
-    for(int i=0;i&lt;v;i++){
-        if(isVisited[i]==false &amp;&amp; key[i]&lt;min){
-            min=key[i];
-            min_ver=i;
-        }
-    }
-    return min_ver;
+	int min=INF,min_ver=NIL;
+	for(int i=0;i&lt;v;i++){
+		if(isVisited[i]==false &amp;&amp; key[i]&lt;min){
+			min=key[i];
+			min_ver=i;
+		}
+	}
+	return min_ver;
 }
 
 void Graph::Prim(int r){
-    int key[v];//store the key of vertice v
-    int pi[v];//store the parent of vertice v
-    bool isVisited[v];
+	int key[v];//store the key of vertice v
+	int pi[v];//store the parent of vertice v
+	bool isVisited[v];
 
-    for(int i=0;i&lt;v;i++){
-        key[i]=INF;
-        pi[i]=NIL;
-        isVisited[i]=false;
-    }
+	for(int i=0;i&lt;v;i++){
+		key[i]=INF;
+		pi[i]=NIL;
+		isVisited[i]=false;
+	}
 
-    key[r]=0;//taking 0 as source
-    pi[r]=NIL;
+	key[r]=0;//taking 0 as source
+	pi[r]=NIL;
 
-    for(int i=0;i&lt;v-1;i++){
-        //v-1 as v-1 edges are needed to create a MST of v edges
-        int u=minKey(key,isVisited);
-        list&lt;pair&lt;int,int&gt;&gt;::iterator itr;
-        isVisited[u]=true;
-        for(itr=adj[u].begin();itr!=adj[u].end();itr++){
-            int v=(*itr).first;
-            int w=(*itr).second;
-            if(pi[v]==NIL &amp;&amp; w&lt;key[v]){
-                pi[v]=u;
-                key[v]=w;
-            }
-        }
-    }
-    printMST(pi,key);
+	for(int i=0;i&lt;v-1;i++){
+		//v-1 as v-1 edges are needed to create a MST of v edges
+		int u=minKey(key,isVisited);
+		list&lt;pair&lt;int,int&gt;&gt;::iterator itr;
+		isVisited[u]=true;
+		for(itr=adj[u].begin();itr!=adj[u].end();itr++){
+			int v=(*itr).first;
+			int w=(*itr).second;
+			if(pi[v]==NIL &amp;&amp; w&lt;key[v]){
+				pi[v]=u;
+				key[v]=w;
+			}
+		}
+	}
+	printMST(pi,key);
 }
 
 int main()  
 {
-    int V = 6; 
-    Graph g(V); 
+	int V = 6; 
+	Graph g(V); 
 
-    //  making above shown graph 
-    g.addEdge(0, 1, 5); 
-    g.addEdge(0, 2, 5); 
-    g.addEdge(1, 2, 10); 
-    g.addEdge(0, 3, 8); 
-    g.addEdge(1, 4, 2); 
-    g.addEdge(3, 4, 7); 
-    g.addEdge(3, 5, 3); 
-    g.addEdge(4, 5, 9); 
+	//  making above shown graph 
+	g.addEdge(0, 1, 5); 
+	g.addEdge(0, 2, 5); 
+	g.addEdge(1, 2, 10); 
+	g.addEdge(0, 3, 8); 
+	g.addEdge(1, 4, 2); 
+	g.addEdge(3, 4, 7); 
+	g.addEdge(3, 5, 3); 
+	g.addEdge(4, 5, 9); 
 
-    g.Prim(0); 
+	g.Prim(0); 
 
-    return 0;   
+	return 0;   
 }
 </code></pre>
 <p>It produces following result:-</p>
@@ -369,7 +368,7 @@ int main()
   </footer>
 </article>
     </main><footer class="footer">
-    <span>&copy; 2021 <a href="https://gagansinghmsitece.github.io/">Gagan Singh</a></span>
+    <span>&copy; 2022 <a href="https://gagansinghmsitece.github.io/">Gagan Singh</a></span>
     
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
@@ -382,7 +381,7 @@ int main()
 
 
 
-<script defer src="https://gagansinghmsitece.github.io/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+<script defer src="https://gagansinghmsitece.github.io/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
 <script>
     window.onload = function () {

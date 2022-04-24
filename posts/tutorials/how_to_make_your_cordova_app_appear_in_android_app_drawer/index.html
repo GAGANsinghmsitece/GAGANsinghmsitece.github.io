@@ -11,7 +11,7 @@
 <meta name="description" content="A introduction to intents and its implementation in cordova">
 <meta name="author" content="Gagan Singh">
 <link rel="canonical" href="https://gagansinghmsitece.github.io/posts/tutorials/how_to_make_your_cordova_app_appear_in_android_app_drawer/" />
-<link href="https://gagansinghmsitece.github.io/assets/css/stylesheet.min.57da1366bfd884dc6005936744c35f3a73b7ae47a47b1c3d256a80157ab8a137.css" integrity="sha256-V9oTZr/YhNxgBZNnRMNfOnO3rkekexw9JWqAFXq4oTc=" rel="preload stylesheet"
+<link href="https://gagansinghmsitece.github.io/assets/css/stylesheet.min.6f0aa8232c653ed30385dc4ab099756bc3d2a246b720d2223a3c002bbf3d3de5.css" integrity="sha256-bwqoIyxlPtMDhdxKsJl1a8PSoka3INIiOjwAK789PeU=" rel="preload stylesheet"
     as="style">
 
 <link rel="icon" href="https://gagansinghmsitece.github.io/favicon.ico">
@@ -21,8 +21,7 @@
 <link rel="mask-icon" href="https://gagansinghmsitece.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.80.0" />
-
+<meta name="generator" content="Hugo 0.92.1" />
 
 
 <script type="application/javascript">
@@ -206,18 +205,18 @@ February 21, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Gagan Singh
 <p>First of all, let&rsquo;s add a event listener to <code>deviceready</code> in our javascript file</p>
 <pre><code>document.addEventListener(&quot;deviceready&quot;, onDeviceReady, false);
 function onDeviceReady(){
-    //our intent logic here
+	//our intent logic here
 }
 </code></pre>
 <p>As mentioned earlier, plugin exposes the functionality using <code>window.plugins.intentShim</code>.Hence, our intent-handling logic would look like,</p>
 <pre><code>window.plugins.intentShim.getIntent(function(intent) {
-    if(intent.action===&quot;android.intent.action.VIEW&quot;){
-        console.log(intent.data);
-        //write here what you want to do with data 
-    }
-    },
-    function(){
-        console.log(&quot;error getting launch intent&quot;);
+	if(intent.action===&quot;android.intent.action.VIEW&quot;){
+  		console.log(intent.data);
+  		//write here what you want to do with data 
+	}
+  	},
+	function(){
+		console.log(&quot;error getting launch intent&quot;);
 });
 </code></pre>
 <p>We use <code>getIntent</code> functionality of the plugin to get intent and then we check if the action we specified in <code>AndroidManifest.xml</code> matches, if yes, we access the data passed through intent using <code>intent.data</code> which is in my case is the link of Pdf file on which user clicks.</p>
@@ -288,7 +287,7 @@ In case you want to see intent in action, i already released the app on play sto
   </footer>
 </article>
     </main><footer class="footer">
-    <span>&copy; 2021 <a href="https://gagansinghmsitece.github.io/">Gagan Singh</a></span>
+    <span>&copy; 2022 <a href="https://gagansinghmsitece.github.io/">Gagan Singh</a></span>
     
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
@@ -301,7 +300,7 @@ In case you want to see intent in action, i already released the app on play sto
 
 
 
-<script defer src="https://gagansinghmsitece.github.io/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+<script defer src="https://gagansinghmsitece.github.io/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
 <script>
     window.onload = function () {

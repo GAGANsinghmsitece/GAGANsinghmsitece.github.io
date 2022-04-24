@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pointers on Gagan Singh</title>
+    <link>https://gagansinghmsitece.github.io/tags/pointers/</link>
+    <description>Recent content in Pointers on Gagan Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/tags/pointers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pointers</title>
+      <link>https://gagansinghmsitece.github.io/posts/competitive-programming/pointers/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/posts/competitive-programming/pointers/</guid>
+      <description>A introduction on Pointers in c++</description>
+    </item>
+    
+  </channel>
+</rss>

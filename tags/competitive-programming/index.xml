@@ -6,7 +6,16 @@
     <description>Recent content in Competitive Programming on Gagan Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/tags/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gagansinghmsitece.github.io/tags/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pointers</title>
+      <link>https://gagansinghmsitece.github.io/posts/competitive-programming/pointers/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gagansinghmsitece.github.io/posts/competitive-programming/pointers/</guid>
+      <description>A introduction on Pointers in c++</description>
+    </item>
+    
     <item>
       <title>Prim&#39;s algorithm</title>
       <link>https://gagansinghmsitece.github.io/posts/competitive-programming/prims_algorithm/</link>
